@@ -97,7 +97,7 @@ function getCopyURL() {
   } else {
     copyLanguage = "&lang=zh-tw";
   }
-  return "/?" + copyLocation + copyLanguage;
+  return "https://richardliu-skibidi.github.io/?" + copyLocation + copyLanguage;
 }
 function refreshLang(langinput) {
   if (langinput == "English") {
