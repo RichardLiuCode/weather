@@ -97,7 +97,7 @@ function getCopyURL() {
   } else {
     copyLanguage = "&lang=zh-tw";
   }
-  return "https://weathersearch.glitch.me?" + copyLocation + copyLanguage;
+  return "/?" + copyLocation + copyLanguage;
 }
 function refreshLang(langinput) {
   if (langinput == "English") {
