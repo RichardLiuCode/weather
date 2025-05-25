@@ -1,0 +1,221 @@
+body {
+  font-family: Arial;
+  text-align: center;
+  background-color: lightskyblue;
+  margin: 0;
+}
+@media (max-width: 600px) {
+  body {
+    font-family: Arial;
+    text-align: center;
+    background-color: lightskyblue;
+    margin: 0;
+  }
+  @media (max-width: 600px) {
+    body {
+      background-color: white;
+    }
+  }
+  ​ #weather {
+    margin-top: 20px;
+  }
+  #search,
+  #currentLocation,
+  #cityInput {
+    padding: 10px;
+    font-size: 16px;
+  }
+  ​ #cityInput {
+    width: 500px;
+    border-radius: 50px;
+    border-color: blue;
+  }
+  @media (max-width: 600px) {
+    #cityInput {
+      width: 200px;
+      border-radius: 0px;
+      border-color: blue;
+      margin-right: 20px;
+    }
+  }
+  #search,
+  #currentLocation {
+    width: 150px;
+    border-radius: 90px;
+    background-color: blue;
+    color: white;
+    border-width: 0;
+  }
+  @media (max-width: 600px) {
+    #search,
+    #currentLocation {
+      padding: 0px;
+      width: 100px;
+      height: 30px;
+      border-radius: 40px;
+      background-color: blue;
+      color: white;
+      border-width: 0;
+    }
+  }
+  h1 {
+    color: darkblue;
+    font-size: 35px;
+  }
+  div {
+    color: blue;
+  }
+  .frame {
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    width: 1000px;
+    background: lightblue;
+    border-radius: 8px;
+  }
+  @media (max-width: 600px) {
+    .frame {
+      text-align: center;
+      margin: 0 auto;
+      padding: 30px;
+      width: 300px;
+      background: lightblue;
+      border-radius: 8px;
+    }
+  }
+  .topBar {
+    text-align: left;
+    background: blue;
+    color: white;
+    height: 40px;
+  }
+  #language,
+  #copy {
+    background-color: white;
+  }
+}
+
+#weather {
+  margin-top: 20px;
+}
+#search,
+#currentLocation,
+#cityInput {
+  padding: 10px;
+  font-size: 16px;
+}
+
+#cityInput {
+  width: 500px;
+  border-radius: 90px;
+  border-color: blue;
+}
+@media (max-width: 600px) {
+  #cityInput {
+    width: 180px;
+    border-radius: 0px;
+    border-color: blue;
+  }
+}
+#search,
+#currentLocation {
+  width: 200px;
+  border-radius: 90px;
+  background-color: blue;
+  color: white;
+  border-width: 0;
+}
+@media (max-width: 600px) {
+  #search,
+  #currentLocation {
+    margin-left: 0px;
+    margin-right: 0px;
+    padding: 0px;
+    width: 100px;
+    height: 40px;
+    border-radius: 0px;
+    background-color: blue;
+    color: white;
+    border-width: 0;
+  }
+}
+h1 {
+  color: darkblue;
+  font-size: 35px;
+}
+div {
+  color: blue;
+}
+.frame {
+  text-align: center;
+  margin: 0 auto;
+  padding: 30px;
+  width: 1000px;
+  background: lightblue;
+  border-radius: 8px;
+}
+@media (max-width: 600px) {
+  .frame {
+    text-align: center;
+    margin: 0 auto;
+    padding: 30px;
+    width: 300px;
+    background: lightblue;
+    border-radius: 8px;
+  }
+}
+.topBar {
+  position: fixed;
+  text-align: left;
+  background: blue;
+  color: white;
+  width: 100vw;
+  height: 40px;
+}
+
+#copy,
+#shareWeb,
+#reload,
+#showSideBar {
+  margin-left: 5px;
+  margin-top: 10px;
+  background-color: blue;
+  color: white;
+  border-width: 1px;
+  border-color: white;
+  border-radius: 0px;
+  width: 80px;
+  text-align: left;
+}
+#showSideBar {
+  width: 130px;
+  height: 23px;
+}
+#language {
+  margin-left: 10px;
+  width: 150px;
+  height: 20px;
+  border-radius:0px;
+  background-color:white
+}
+.sideBar {
+  position: fixed;
+  background-color: white;
+  width: 250px;
+  height: 100vh;
+  
+}
+#historyDisplay{
+  overflow-y: auto;
+  overflow-x: hidden;
+  height: 560px;
+}
+#closeSideBar {
+  color: blcak;
+  background-color: white;
+  border-width: 1px;
+  border-color: lightgray;
+}
+#closeSideBar:active {
+  background-color: red;
+}
