@@ -97,7 +97,7 @@ function getCopyURL() {
   } else {
     copyLanguage = "&lang=zh-tw";
   }
-  return "https://richardliu-skibidi.github.io/?" + copyLocation + copyLanguage;
+  return "https://richardwebsites.github.io/weather/?" + copyLocation + copyLanguage;
 }
 function refreshLang(langinput) {
   if (langinput == "English") {
