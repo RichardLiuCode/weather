@@ -219,3 +219,7 @@ div {
 #closeSideBar:active {
   background-color: red;
 }
+input:focus{
+  outline:none;
+  border-width:3px;
+}
