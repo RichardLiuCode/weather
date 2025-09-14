@@ -8,62 +8,63 @@
 -->
 
 <html>
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <!--For phone-->
-    <link rel="stylesheet" href="style.css" />
-    <title>Weather</title>
-    <link
-      rel="icon"
-      href="https://icons.veryicon.com/png/o/weather/weather-fill/weather-cloudy-19.png"
-    />
-  </head>
-  <body>
-    <div class="main">
-      <div class="topBar">
-        <button id="showSideBar">Show Side-Bar</button>
 
-        <button id="shareWeb">Share</button>
+<head>
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <!--For phone-->
+  <link rel="stylesheet" href="style.css" />
+  <title>Weather</title>
+  <link rel="icon" href="https://icons.veryicon.com/png/o/weather/weather-fill/weather-cloudy-19.png" />
+</head>
 
-        <button id="copy">Copy Link</button>
-        <label id="isCopied"></label>
-        <button id="reload">Reload</button>
+<body>
+  <div class="main">
+    <div class="topBar">
+      <button id="showSideBar">Show Side-Bar</button>
+
+      <button id="shareWeb">Share</button>
+
+      <button id="copy">Copy Link</button>
+      <label id="isCopied"></label>
+      <button id="reload">Reload</button>
+    </div>
+    <div id="sideBar" class="sideBar">
+      <div style="text-align: right">
+        <button id="closeSideBar">✕</button>
+        <br /><br />
       </div>
-      <div id="sideBar" class="sideBar">
-        <div style="text-align: right">
-          <button id="closeSideBar">✕</button>
-          <br /><br />
-        </div>
-        <select id="language">
-          <option disabled selected>Language,語言</option>
-          <option>English</option>
-          <option>中文繁體</option>
-        </select>
-        <hr />
-        <h3 id="historyTitle"></h3>
-        
-        <div id="historyDisplay"></div>
-        <br>
-        <div style="position:fixed;bottom:0;background-color:yellow;width:250px;">
-          <p>
+      <select id="language">
+        <option disabled selected>Language,語言</option>
+        <option>English</option>
+        <option>中文繁體</option>
+      </select>
+      <hr />
+      <h3 id="historyTitle"></h3>
+
+      <div id="historyDisplay"></div>
+      <br>
+      <div style="position:fixed;bottom:25px;background-color:yellow;width:250px;">
+        <p>
           This website was build by<br> <a href="https://richardliucode.github.io" target="_blank">Richard Liu</a>
         </p>
-        </div>
-        
       </div>
-      <br /><br />
-      <br />
 
-      <div class="frame">
-        <h1 id="title">Weather</h1>
-        <input type="search" id="cityInput" placeholder="Search city" />
-        <button id="search">Search</button>
-        <button id="currentLocation">Current Location</button>
-      </div>
-      <div id="loading"></div>
-      <div id="weather"></div>
     </div>
+    <br /><br />
+    <br />
 
-    <script src="code.js"></script>
-  </body>
+    <div class="frame">
+      <h1 id="title">Weather</h1>
+      <input type="search" id="cityInput" placeholder="Search city" />
+      <button id="search">Search</button>
+      <button id="currentLocation">Current Location</button>
+    </div>
+    <div id="loading"></div>
+    <div id="weather"></div>
+  </div>
+
+  <script src="code.js"></script>
+  <script src="https://richardliucode.github.io/richardcode/RichardJS/footer.js"></script>
+</body>
+
 </html>
